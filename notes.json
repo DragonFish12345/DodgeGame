@@ -1,0 +1,39 @@
+Screen name - DodgeGame
+Screen size - 800x600
+Screen icon - Annotation 2020-08-20 122121.png
+Screen background - Black (0, 0, 0)
+Object 1 - Red rectangle:
+	dimensions - 50x50
+	starting point - (250, 275)
+	velocity - 1
+	controls:
+		A - Left
+		D - Right
+		W - Up
+		S - Down
+	color - Red
+
+Object 2 - Blue rectangle:
+	dimensions - 50x50
+	starting point - (500, 275)
+	velocity - 1
+	controls:
+		L_ARROW - Left
+		R_ARROW - Right
+		U_ARROW - Up
+		D_ARROW - Down
+		color - Blue
+
+Object 3 - White Circle
+	radius - 50
+	starting point - (400, 425)
+	velocity - 3
+
+*Object 3 will go to a random generated pair of coordinates until it reaches there,
+where it will go to a new one, or until any object collides with each other
+
+Modules needed - Pygame, Random, Time
+Pygame - Creating the game window, game mechanics
+Time - Creating a delay, making the game a bit slower
+Random - Generating random coordinates
+
